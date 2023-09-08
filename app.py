@@ -15,9 +15,9 @@ def get_specific_info():
     # Get the current UTC time
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    # Get the GitHub file URL and GitHub repo URL (replace with your own URLs)
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
-    github_repo_url = "https://github.com/username/repo"
+    # Get the GitHub file URL and GitHub repo URL 
+    github_file_url = "https://github.com/sisiicecream/My-_HNGx-_projects/blob/main/app.py"
+    github_repo_url = "https://github.com/sisiicecream/My-_HNGx-_projects"
 
     # Prepare the response JSON
     data = {
